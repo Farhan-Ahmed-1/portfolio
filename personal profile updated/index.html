@@ -7,35 +7,62 @@
     <title>Document</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 
 <body>
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
         <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">skills</a>
-            <a href="#">project</a>
-            <a href="#">contact</a>
+            <a href="#" style="--i:1" class="active">Home</a>
+            <a href="#" style="--i:2">About</a>
+            <a href="#" style="--i:3">skills</a>
+            <a href="#" style="--i:4">project</a>
+            <a href="#" style="--i:5">contact</a>
         </nav>
     </header>
     <section class="home">
         <div class="home-content">
-            <h3>hello It's Me </h3>
+            <h3>Hello It's Me </h3>
             <h1>Farhan Ahmed</h1>
-            <h3>and I'm a </h3>
+            <h3>And I'm a <span class="text"></span> </h3>
             <p>I'm a Developer and UI/UX Designer passionate about crafting seamless digital
-                experiences. <br> Explore my projects where code meets design, turning ideas into user-friendly solutions</p>
-                <div class="home-sci">
-                    <a href=""><i class='bx bxl-github'></i></a>
-                    <a href=""><i class='bx bxl-linkedin' ></i></a>
-                    <a href=""><i class='bx bxl-instagram' ></i></a>
-                    <a href=""><i class='bx bx-mail-send' ></i></a>
-                </div>
-                <a href="#" class="btn-box">More About Me</a>
+                experiences. <br> Explore my projects where code meets design, turning ideas into user-friendly
+                solutions</p>
+            <div class="home-sci">
+                <a href="#" style="--i:6"><i class='bx bxl-github'></i></a>
+                <a href="#" style="--i:7"><i class='bx bxl-linkedin'></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-instagram'></i></a>
+                <a href="#" style="--i:9"><i class='bx bx-mail-send'></i></a>
+            </div>
+            <a href="#" class="btn-box">More About Me</a>
         </div>
     </section>
+
+    <!-- About section -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/bg1_me.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h2>About<span>Me</span></h2>
+            <h4>Web Developer & UI/UX Designer</h4>
+            <p>As a highly skilled web developer with a focus on frontend technologies, I am passionate about creating
+                visually appealing and user-friendly websites. With a keen eye for design and an excellent understanding
+                of colours and UI design principles, I take pride in delivering high-quality projects that meet my
+                clients' needs and exceed their expectations.
+                <br>
+                In addition to my technical skills, I also possess exceptional communication skills, allowing me to
+                collaborate effectively with clients, team members, and other stakeholders. I believe that clear and
+                open communication is essential for delivering successful projects, and I always strive to keep my
+                clients informed and engaged throughout the development process.</p>
+                <a href="" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+
+    <script src="main.js"></script>
 </body>
 
 </html>
