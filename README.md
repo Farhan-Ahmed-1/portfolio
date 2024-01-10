@@ -7,4 +7,4 @@ This project represents the synergy of my skills as a developer and UI/UX design
 Visit my Portfolio,to see more of my work.
 
 📬 Connect
-Let's connect on [LinkedIn]( www.linkedin.com/in/farhan-ahmed22/) for collaboration and discussions.
+Let's connect on [LinkedIn](https://www.linkedin.com/in/farhan-ahmed22/) for collaboration and discussions.
