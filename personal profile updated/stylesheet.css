@@ -334,6 +334,8 @@ section{
 
 
 
+
+
 @keyframes animate{
     100%{
         transform: scaleX(1);
@@ -355,15 +357,15 @@ section{
     width: 87%;
 
  }
-.progress-line .html span{
+.progress-line .Javascript span{
     width: 90%;
 
  }
-.progress-line .html span{
+.progress-line .UI-UX span{
     width: 90%;
 
  }
-.progress-line .html span{
+.progress-line .Graphic-Design span{
     width: 90%;
 
  }
