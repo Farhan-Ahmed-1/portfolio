@@ -321,7 +321,7 @@ section{
     opacity: 0;
 }
 
-.Technical-bars.bar .progress-line{
+.Technical-bars.bar .progress-line {
     position: relative;
     border-radius: 10px;
     width: 100%;
