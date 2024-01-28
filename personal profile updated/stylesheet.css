@@ -301,10 +301,11 @@ body {
     color: #0ef;
 }
 
-section {
+.arrange {
     display: flex;
     flex-wrap: wrap;
 }
+
 
 .container1 {
     width: 600px;
@@ -746,12 +747,14 @@ section {
         font-weight: 300;
         margin-top: 70px;
     }
+
     .top{
         position: fixed;
         border: 2.1rem;
         right: 2.1rem;
     }
-    .top i{
+
+    .top i {
         color: #000;
         background: #0ef;
         font-size: 20px;
