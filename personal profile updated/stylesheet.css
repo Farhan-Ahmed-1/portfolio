@@ -359,7 +359,7 @@ body {
     height: 5px;
     background-color:#130202;
     animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
-    transform:scaleX(0)
+    transform:scaleX(0) ;
     transform-origin: left;
 }
 @keyframes animate{
